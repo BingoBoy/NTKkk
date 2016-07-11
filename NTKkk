@@ -1,4 +1,12 @@
     <?php 
+    /*
+Plugin Name: NTKkk
+Plugin URI: http://tyfon.no
+Description: NTKkk
+Author: Truls Dahl
+Version: 0.6
+Author URI: http://tyfon.no
+*/
         //Data, connection, auth
         $dataFromTheForm = $_POST['fieldName']; // request data from the form
         $soapUrl = "https://connecting.website.com/soap.asmx?op=DoSomething"; // asmx URL of WSDL
